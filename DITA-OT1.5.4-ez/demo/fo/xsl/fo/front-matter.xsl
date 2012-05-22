@@ -140,7 +140,8 @@ See the accompanying license.txt file for applicable licenses.
     </xsl:template>
 
     <xsl:template name="processTopicAbstract">
-        <fo:block xsl:use-attribute-sets="topic" page-break-before="always">
+<!--        <fo:block xsl:use-attribute-sets="topic" page-break-before="always"> MODIFIED wab -->
+        <fo:block xsl:use-attribute-sets="topic">
             <xsl:if test="not(ancestor::*[contains(@class, ' topic/topic ')])">
                 <fo:marker marker-class-name="current-topic-number">
                     <xsl:number format="1"/>

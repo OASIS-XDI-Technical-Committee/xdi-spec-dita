@@ -163,6 +163,7 @@ See the accompanying license.txt file for applicable licenses.
     <xsl:attribute-set name="__toc__mini__table">
         <xsl:attribute name="table-layout">fixed</xsl:attribute>
         <xsl:attribute name="width">100%</xsl:attribute>
+<!--        <xsl:attribute name="page-break-after">always</xsl:attribute> wab -->
         <xsl:attribute name="page-break-after">always</xsl:attribute>
     </xsl:attribute-set>
 

@@ -652,14 +652,18 @@ See the accompanying license.txt file for applicable licenses.
 
     <xsl:attribute-set name="__force__page__count">
         <xsl:attribute name="force-page-count">
+<!-- wab
             <xsl:choose>
                 <xsl:when test="name(/*) = 'bookmap'">
                     <xsl:value-of select="'even'"/>
                 </xsl:when>
                 <xsl:otherwise>
+-->
                     <xsl:value-of select="'auto'"/>
+<!--
                 </xsl:otherwise>
             </xsl:choose>
+-->
         </xsl:attribute>
     </xsl:attribute-set>
 

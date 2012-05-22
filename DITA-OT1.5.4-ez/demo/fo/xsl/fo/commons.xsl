@@ -1237,7 +1237,22 @@ See the accompanying license.txt file for applicable licenses.
                 <xsl:value-of select="@spectitle"/>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:apply-templates/>
+	      <!-- start of hack to allow formatting of third level headings -->
+              <xsl:variable name="level" select="count(ancestor::*[contains(@class,' topic/topic ')])"/>
+
+              <xsl:choose>
+                <xsl:when test="$level = 3">
+                  <fo:block xsl:use-attribute-sets="body__secondLevel">
+                    <xsl:apply-templates/>
+                  </fo:block>
+                </xsl:when>
+                <xsl:otherwise>
+                  <xsl:apply-templates/>
+                </xsl:otherwise>
+              </xsl:choose>
+	      <!-- end of hack -->
+
+                <!-- <xsl:apply-templates/> wab -->
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>

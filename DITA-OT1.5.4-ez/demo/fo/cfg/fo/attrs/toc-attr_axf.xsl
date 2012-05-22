@@ -14,6 +14,7 @@
         <xsl:attribute name="width">100%</xsl:attribute>
         <!-- Added 2007/10/15 -->
         <xsl:attribute name="page-break-after">always</xsl:attribute>
+        <!-- wab <xsl:attribute name="page-break-after">always</xsl:attribute> -->
     </xsl:attribute-set>
 
     <xsl:attribute-set name="__toc__mini__table__body">
