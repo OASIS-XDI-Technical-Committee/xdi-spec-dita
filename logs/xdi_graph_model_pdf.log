@@ -1,0 +1,178 @@
+Processing started...
+Initialize log directory and file name...
+  [echo] Version: DITA Open Toolkit 1.5.4
+Validate and init input arguments...
+  [echo] *****************************************************************
+  [echo] * basedir = /Users/billbarnhill/Documents/Coding/xdi-spec
+  [echo] * dita.dir = /Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez
+  [echo] * input = xdi_graph_model.ditamap
+  [echo] * transtype = pdf
+  [echo] * tempdir = temp/temp20120520093148637
+  [echo] * outputdir = /Users/billbarnhill/Documents/Coding/xdi-spec/out
+  [echo] * extname = .xml
+  [echo] * clean.temp = true
+  [echo] * xslt.parser = SAXON
+  [echo] *****************************************************************
+  [echo] #Ant properties
+  [echo] #Sun May 20 09:31:51 EDT 2012
+  [echo] args.css.file.temp=${args.css}
+  [echo] args.css.real=${args.css}
+  [echo] args.grammar.cache=yes
+  [echo] args.input=xdi_graph_model.ditamap
+  [echo] args.logdir=/Users/billbarnhill/Documents/Coding/xdi-spec/out
+  [echo] args.message.file=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/resource/messages.xml
+  [echo] args.odt.img.embed=yes
+  [echo] args.odt.include.rellinks=none
+  [echo] args.xml.systemid.set=yes
+  [echo] dita.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez
+  [echo] dita.empty=
+  [echo] dita.ext=.xml
+  [echo] dita.extname=xml
+  [echo] dita.input.filename=xdi_graph_model.ditamap
+  [echo] dita.map.filename.root=xdi_graph_model
+  [echo] dita.plugin.com.sophos.tocjs.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/demo/tocjs
+  [echo] dita.plugin.org.dita.base.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez
+  [echo] dita.plugin.org.dita.docbook.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez
+  [echo] dita.plugin.org.dita.eclipsecontent.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez
+  [echo] dita.plugin.org.dita.eclipsehelp.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez
+  [echo] dita.plugin.org.dita.htmlhelp.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez
+  [echo] dita.plugin.org.dita.javahelp.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez
+  [echo] dita.plugin.org.dita.legacypdf.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/demo/legacypdf
+  [echo] dita.plugin.org.dita.odt.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez
+  [echo] dita.plugin.org.dita.pdf.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/plugins/org.dita.pdf
+  [echo] dita.plugin.org.dita.pdf2.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/demo/fo
+  [echo] dita.plugin.org.dita.specialization.dita11.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/demo/dita11
+  [echo] dita.plugin.org.dita.specialization.dita132.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/demo/dita132
+  [echo] dita.plugin.org.dita.specialization.eclipsemap.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/demo/eclipsemap
+  [echo] dita.plugin.org.dita.specialization.h2d.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/demo/h2d
+  [echo] dita.plugin.org.dita.troff.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez
+  [echo] dita.plugin.org.dita.wordrtf.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez
+  [echo] dita.plugin.org.dita.xhtml.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez
+  [echo] dita.preprocess.reloadstylesheet=false
+  [echo] dita.resource.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/resource
+  [echo] dita.script.dir=/Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/xsl
+  [echo] dita.temp.dir=temp/temp20120520093148637
+  [echo] dita.topic.filename.root=xdi_graph_model.ditamap
+  [echo] dita.xhtml.reloadstylesheet=false
+  [echo] preprocess.copy-image.skip=true
+  [echo] *****************************************************************
+  [echo] * Using Xerces
+  [echo] *****************************************************************
+Preprocessing started...
+  [gen-list] GenMapAndTopicListModule.execute(): Starting...
+  [gen-list] Using Xerces grammar pool for DTD and schema caching.
+  [gen-list] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/xdi_graph_model.ditamap
+  [gen-list] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_link_contracts.dita
+  [gen-list] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_messages.dita
+  [gen-list] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/xdi_graph_pattern_examples_intro.dita
+  [gen-list] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_simple_properties.dita
+  [gen-list] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_complex_properties.dita
+  [gen-list] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_simple_subjects.dita
+  [gen-list] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_complex_subjects.dita
+  [gen-list] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_root_contexts_and_synonyms.dita
+  [gen-list] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_social_graphs.dita
+  [gen-list] GenMapAndTopicListModule.execute(): Execution time: 1.634 seconds
+Generate file list...
+Debug input files...
+  [debug] DebugAndFilterModule.execute(): Starting...
+  [debug] Using Xerces grammar pool for DTD and schema caching.
+  [debug] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_social_graphs.dita
+  [debug] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_root_contexts_and_synonyms.dita
+  [debug] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_simple_subjects.dita
+  [debug] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_complex_subjects.dita
+  [debug] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_complex_properties.dita
+  [debug] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/xdi_graph_model.ditamap
+  [debug] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_simple_properties.dita
+  [debug] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/xdi_graph_pattern_examples_intro.dita
+  [debug] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_messages.dita
+  [debug] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/topics/examples_for_link_contracts.dita
+  [debug] Execution time: 295 milliseconds
+Debug and filter input files...
+Debug and filter input files...
+Copy image files...
+Copy image files...
+Copy image files...
+Copy html files...
+Copy flag files...
+Copy subsidiary files...
+Copy generated files...
+  [copy] Copying 3 files to /Users/billbarnhill/Documents/Coding/xdi-spec/out
+Resolve conref push...
+Resolve conref in input files...
+Move metadata entries...
+  [move-meta] Reading /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/xdi_graph_model.ditamap
+  [move-meta] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_root_contexts_and_synonyms.xml
+  [move-meta] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_messages.xml
+  [move-meta] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_link_contracts.xml
+  [move-meta] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_social_graphs.xml
+  [move-meta] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/xdi_graph_pattern_examples_intro.xml
+  [move-meta] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_simple_subjects.xml
+  [move-meta] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_complex_subjects.xml
+  [move-meta] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_simple_properties.xml
+  [move-meta] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_complex_properties.xml
+Resolve keyref...
+Resolve coderef in input files...
+Resolve mapref in ditamap...
+  [mapref] Transforming into /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637
+  [mapref] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/xdi_graph_model.ditamap to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/xdi_graph_model.ditamap.ref
+  [mapref] Loading stylesheet /Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/xsl/preprocess/mapref.xsl
+  [move] Moving 1 file to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637
+Pull the navtitle and topicmeta from topics to ditamap...
+  [mappull] Transforming into /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637
+  [mappull] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/xdi_graph_model.ditamap to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/xdi_graph_model.ditamap.pull
+  [mappull] Loading stylesheet /Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/xsl/preprocess/mappull.xsl
+  [move] Moving 1 file to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637
+Process chunks...
+Find and generate related link information...
+  [maplink] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/xdi_graph_model.ditamap to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/maplinks.unordered
+  [maplink] Loading stylesheet /Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/xsl/preprocess/maplink.xsl
+Move the related link information to topics...
+  [move-links] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_social_graphs.xml
+  [move-links] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_complex_properties.xml
+  [move-links] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_root_contexts_and_synonyms.xml
+  [move-links] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/xdi_graph_pattern_examples_intro.xml
+  [move-links] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_complex_subjects.xml
+  [move-links] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_simple_properties.xml
+  [move-links] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_link_contracts.xml
+  [move-links] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_messages.xml
+  [move-links] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_simple_subjects.xml
+Pull metadata for link and xref element...
+  [topicpull] Transforming into /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637
+  [topicpull] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_complex_properties.xml to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_complex_properties.xml.pull
+  [topicpull] Loading stylesheet /Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/xsl/preprocess/topicpull.xsl
+  [topicpull] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_complex_subjects.xml to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_complex_subjects.xml.pull
+  [topicpull] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_link_contracts.xml to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_link_contracts.xml.pull
+  [topicpull] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_messages.xml to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_messages.xml.pull
+  [topicpull] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_root_contexts_and_synonyms.xml to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_root_contexts_and_synonyms.xml.pull
+  [topicpull] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_simple_properties.xml to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_simple_properties.xml.pull
+  [topicpull] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_simple_subjects.xml to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_simple_subjects.xml.pull
+  [topicpull] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_social_graphs.xml to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/examples_for_social_graphs.xml.pull
+  [topicpull] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/xdi_graph_pattern_examples_intro.xml to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topics/xdi_graph_pattern_examples_intro.xml.pull
+  [move] Moving 9 files to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637
+Preprocessing ended...
+  [copy] Copying 3 files to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/Configuration/OpenTopic
+  [copy] Copying 1 file to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/Customization/OpenTopic
+  [dita-version] Search finished
+  [detect-lang] Lang search finished
+  [echo] Using document.locale=en_US
+  [copy] Copying 1 file to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637
+  [echo] Java maximum memory=500m
+  [echo] Processing temp/temp20120520093148637/stage1a.xml to temp/temp20120520093148637/stage2.fo
+  [echo] Loading stylesheet /Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/demo/fo/xsl/fo/topic2fo_shell_1.0_fop.xsl
+  [java] [PDFX010W][WARN]: Index generation is not supported in FOP. 
+  [xslt] Processing /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/stage3.fo to /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topic.fo
+  [xslt] Loading stylesheet /Users/billbarnhill/Documents/Coding/xdi-spec/DITA-OT1.5.4-ez/demo/fo/xsl/fo/i18n-postprocess.xsl
+  [fop] May 20, 2012 9:32:03 AM org.apache.fop.apps.FopFactoryConfigurator configure
+  [fop] INFO: Default page-height set to: 11in
+  [fop] May 20, 2012 9:32:03 AM org.apache.fop.apps.FopFactoryConfigurator configure
+  [fop] INFO: Default page-width set to: 8.26in
+  [fop] /Users/billbarnhill/Documents/Coding/xdi-spec/temp/temp20120520093148637/topic.fo -> /Users/billbarnhill/Documents/Coding/xdi-spec/out/xdi_graph_model.pdf
+Clean temp directory...
+Processing ended.
+
+BUILD SUCCESSFUL
+Number of Fatals : 0
+Number of Errors : 0
+Number of Warnings : 1
+
+Total time: 15 seconds
