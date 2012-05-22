@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN"
+"http://docs.oasis-open.org/dita/dtd/bookmap.dtd">
+<bookmap xml:lang="en-us">
+  <booktitle>
+    <booklibrary>XRI Data Interchange Specification, v1.0</booklibrary>
+    <mainbooktitle>The XDI Graph Model</mainbooktitle>
+  </booktitle>
+  <bookmeta>
+    <authorinformation>
+      <personinfo>
+        <namedetails>
+          <personname>
+            <firstname>Drummond</firstname>
+            <lastname>Reed</lastname>
+          </personname>
+        </namedetails>
+      </personinfo>
+    </authorinformation>
+    <bookrights>
+      <copyrfirst><year>1994</year></copyrfirst>
+      <copyrlast><year>2006</year></copyrlast>
+      <bookowner>
+	<organization>OASIS</organization>
+      </bookowner>
+    </bookrights>
+  </bookmeta>
+  <frontmatter>
+    <booklists>
+      <toc/>
+<!--
+      <figurelist/>
+      <tablelist/>
+-->
+    </booklists>
+<!--
+    <bookabstract href="MyBookAbstract.dita"/>
+    <preface href="preface.dita"></preface>
+-->
+  </frontmatter>
+  <chapter href="topics/xdi_graph_pattern_examples_intro.dita">
+    <topicref href="topics/examples_for_root_contexts_and_synonyms.dita"></topicref>
+    <topicref href="topics/examples_for_simple_properties.dita"></topicref>
+    <topicref href="topics/examples_for_complex_properties.dita"></topicref>
+    <topicref href="topics/examples_for_simple_subjects.dita"></topicref>
+    <topicref href="topics/examples_for_complex_subjects.dita"></topicref>
+    <topicref href="topics/examples_for_social_graphs.dita"></topicref>
+    <topicref href="topics/examples_for_link_contracts.dita"></topicref>
+    <topicref href="topics/examples_for_messages.dita"></topicref>
+  </chapter>
+<!--
+  <chapter href="chapter2.dita">
+    <topicref href="subchap2.dita"></topicref>
+  </chapter>
+-->
+</bookmap>

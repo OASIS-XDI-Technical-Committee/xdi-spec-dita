@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="examples_for_root_contexts_and_synonyms">
+  <title>Root contexts and synonyms</title>
+
+  <shortdesc>XDI statements, with their JSON serialization, that demonstrate the root contexts and synonyms XDI graph patterns</shortdesc>
+
+  <conbody>
+  </conbody>
+
+  <concept id="xdi_statements_demonstrating_root_contexts_and_synonyms">
+    <title>XDI Statements</title>
+
+    <conbody>
+      <p>()/()/(http://example.com/ox/=!0999.a7b2.25fd.c609)</p>
+      <p>()/()/(=!0999.a7b2.25fd.c609)</p>
+      <p>()/()/=!0999.a7b2.25fd.c609</p>
+      <p>()/()/=abc</p>
+      <p>()/$is/(http://example.com/ox/=!0999.a7b2.25fd.c609)</p>
+      <p>()/$is/(=!0999.a7b2.25fd.c609)</p>
+      <p>=abc/$is/=!0999.a7b2.25fd.c609</p>
+      <p>=!0999.a7b2.25fd.c609/()/+peaJpatch</p>
+      <p>=!0999.a7b2.25fd.c609/()/+garden</p>
+      <p>=!0999.a7b2.25fd.c609/()/!1</p>
+      <p>=!0999.a7b2.25fd.c609+peaJpatch/$is/=!0999.a7b2.25fd.c609!1</p>
+      <p>=!0999.a7b2.25fd.c609+garden/$is/=!0999.a7b2.25fd.c609!1</p>
+    </conbody>
+  </concept>
+
+  <concept id="json_serialization_demonstrating_root_contexts_and_synonyms">
+    <title>JSON Serialization</title>
+    
+    <conbody>
+      <codeblock>
+{
+    "()/()":[
+        "(http://example.com/ox/=!0999.a7b2.25fd.c609)",
+        "(=!0999.a7b2.25fd.c609)",
+        "=!0999.a7b2.25fd.c609",
+        "=abc"
+    ],
+    "()/$is":[
+        "(http://example.com/ox/=!0999.a7b2.25fd.c609)",
+        "(=!0999.a7b2.25fd.c609)"
+    ],
+    "=abc/$is":[
+        "=!0999.a7b2.25fd.c609"
+    ],
+    "=!0999.a7b2.25fd.c609/()":[
+        "+peaJpatch",
+        "+garden",
+        "!1"
+    ],
+    "=!0999.a7b2.25fd.c609+peaJpatch/$is":[
+        "=!0999.a7b2.25fd.c609!1"
+    ],
+    "=!0999.a7b2.25fd.c609+garden/$is":[
+        "=!0999.a7b2.25fd.c609!1"
+    ]
+}
+      </codeblock>
+    </conbody>
+  </concept>
+</concept>

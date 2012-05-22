@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="xdi_graph_pattern_statements_intro">
+  <title>XDI Graph Pattern Examples</title>
+
+  <conbody>
+    <p>
+This section contains the XDI statements (and, in some cases, the corresponding JSON serialization) corresponding to each of the example graphs in the XDI Graph Patterns document of the same date.  For the latest version of both documents see:</p>
+<p>
+<xref href="http://wiki.oasis-open.org/xdi/XdiGraphModel"
+      format="html"
+      scope="external">http://wiki.oasis-open.org/xdi/XdiGraphModel</xref>
+</p>
+<p>
+Although the statements in an XDI graph are not ordered, this document uses the following ordering convention for readability:
+<ol>
+<li>For each context starting with the root context, the subcontext statements (where the predicate is "()") appear first.</li>
+<li>Relational statements (where the predicate does not end in "!") appear second.</li>
+<li>Literal statements (where the predicate ends in "!") appear third.</li>
+</ol>
+</p>
+  </conbody>
+</concept>

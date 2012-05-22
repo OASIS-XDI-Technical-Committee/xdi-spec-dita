@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="examples_for_simple_properties">
+  <title>Simple Subjects</title>
+
+  <shortdesc>XDI statements, and their JSON serialization, that demonstrate the simple properties XDI graph pattern.</shortdesc>
+
+  <conbody>
+  </conbody>
+
+  <concept id="xdi_statements_demonstrating_simple_properties">
+    <title>XDI Statements</title>
+
+    <conbody>
+      <p>()/()/=abc</p>
+      <p>=abc/()/+age</p>
+      <p>=abc/+age!/(data:,33)</p>
+      <p>=abc+age/()/$v</p>
+      <p>=abc+age/$v/=abc+age$v!2</p>
+      <p>=abc+age/$d!/(data:,2010J10J10T11:12:13Z)</p>
+      <p>=abc+age$v/()/!1</p>
+      <p>=abc+age$v/()/!2</p>
+      <p>=abc+age$v/!2/(=abc/+age!)</p>
+      <p>=abc+age$v/!1!/(data:,32)</p>
+      <p>=abc+age$v!1/$d!/(data:,2010J09J09T10:11:12Z)</p>
+      <p>=abc+age$v!2/$d!/(data:,2010J10J10T11:12:13Z)</p>
+    </conbody>
+  </concept>
+  
+  <concept id="json_serialization_demonstrating_simple_properties">
+    <title>JSON Serialization</title>
+
+    <conbody>
+      <codeblock>
+{
+    "()/()":[
+        "=abc"
+    ],
+    "=abc/()":[
+        "+age"
+    ],
+    "=abc/+age!":[
+        33
+    ],
+    "=abc+age/$v":[
+        "=abc+age$v!2"
+    ],
+    "=abc+age/()":[
+        "$v"
+    ],
+    "=abc+age/$d!":[
+        "2010J10J10T11:12:13Z"
+    ],
+    "=abc+age$v/()":[
+        "!1",
+        "!2"
+    ],
+    "=abc+age$v/!2":[
+        "(=abc/+age!)"
+    ],
+    "=abc+age$v/!1!":[
+        32
+    ],
+    "=abc+age$v!1/$d!":[
+        "2010J09J09T10:11:12Z"
+    ],
+    "=abc+age$v!2/$d!":[
+        "2010J10J10T11:12:13Z"
+    ]
+}
+      </codeblock>
+    </conbody>
+  </concept>
+
+</concept>

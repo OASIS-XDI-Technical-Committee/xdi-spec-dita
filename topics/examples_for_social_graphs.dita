@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="examples_for_social_graphs">
+  <title>Social Graphs</title>
+
+  <shortdesc>Examples for social graphs</shortdesc>
+
+  <conbody>
+  </conbody>
+
+  <concept id="xdi_statements_demonstrating_social_graphs">
+    <title>XDI Statements</title>
+    
+    <conbody>
+      <p>()/()/(=abc)</p>
+      <p>()/()/=abc</p>
+      <p>()/()/=xyz</p>
+      <p>()/()/(http://facebook.com)</p>
+      <p>()/()/+seattle</p>
+      <p>()/$is/(=abc)</p>
+      <p>=abc/+best+friend/=xyz</p>
+      <p>=abc/+friend/(http://facebook.com)=xyz</p>
+      <p>=abc/+teammate/+seattle+soccer=xyz</p>
+      <p>(http://facebook.com)/()/=xyz</p>
+      <p>+seattle/()/+soccer</p>
+      <p>+seattle+soccer/()/=xyz</p>
+    </conbody>
+  </concept>
+
+  <concept id="json_serialization_demonstrating_social_graphs">
+    <title>JSON Serialization</title>
+
+    <conbody><note>This section has not been written</note></conbody>
+  </concept>
+</concept>

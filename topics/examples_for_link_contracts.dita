@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="examples_for_link_contracts">
+  <title>Link Contracts</title>
+
+  <shortdesc>XDI statements demonstrating the link contracts XDI graph pattern.</shortdesc>
+
+  <conbody>
+  </conbody>
+
+  <concept id="xdi_statements_link_contracts">
+    <title>XDI Statements</title>
+
+    <conbody>
+      <p>()/()/(=!1111)</p>
+      <p>()/()/=!1111</p>
+      <p>()/()/=!2222</p>
+      <p>()/()/=!3333</p>
+      <p>()/()/@!4444</p>
+      <p>()/()/=abc</p>
+      <p>()/$is/(=!1111)</p>
+      <p>=abc/$is/=!1111</p>
+      <p>=!1111/()/+tel</p>
+      <p>=!1111/()/+passport</p>
+      <p>=!1111/()/!1</p>
+      <p>=!1111/()/=!2222</p>
+      <p>=!1111/+age!/(data:,33)</p>
+      <p>=!1111!1/()/$do</p>
+      <p>=!1111!1/($)/(=!1111/+age!)</p>
+      <p>=!1111!1/($)/=!1111+tel</p>
+      <p>=!1111!1$do/$get/=!1111!1</p>
+      <p>=!1111!1$do/$for/@!4444$policy!1</p>
+      <p>=!1111!1$do/$is$do/=!2222</p>
+      <p>=!1111!1$do/$is$do/=!3333</p>
+      <p>=!1111=!2222/()/$do</p>
+      <p>=!1111=!2222$do/$add/=!2222$msg</p>
+      <p>=!1111=!2222$do/$is$do/=!2222</p>
+      <p>=!2222/()/$msg</p>
+      <p>@!4444/()/$policy</p>
+      <p>@!4444$policy/()/!1</p>
+      <p>@!4444$policy!1/()/$uri</p>
+    </conbody>
+  </concept>
+
+  <concept id="json_serialization_link_contracts">
+    <title>JSON Serialization</title>
+
+    <conbody><note>This section has not been written</note></conbody>
+  </concept>
+
+</concept>

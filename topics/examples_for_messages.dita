@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="examples_for_messages">
+  <title>Messages</title>
+
+  <shortdesc>XDI statements demonstrating the messages XDI graph pattern.</shortdesc>
+
+  <conbody>
+  </conbody>
+
+  <concept id="xdi_statements_demonstrating_messages">
+    <title>XDI Statements</title>
+
+    <conbody>
+      <p>()/()/(=!1111)</p>
+      <p>()/()/=!1111</p>
+      <p>()/()/(=!2222)</p>
+      <p>()/()/=!2222</p>
+      <p>()/$is/(=!1111)</p>
+      <p>=!1111/()/$msg</p>
+      <p>=!1111$msg/()/!1234</p>
+      <p>=!1111$msg!1234/()/$do</p>
+      <p>=!1111!1234/$is()/(=!2222)</p>
+      <p>=!1111$msg!1234/$d!/(data:,2010J12J22T22:22:22Z)</p>
+      <p>=!1111$msg!1234$do/$get/=!2222!1</p>
+      <p>=!2222/()/!1</p>
+    </conbody>
+  </concept>
+  
+  <concept id="json_serialization_demonstrating_messages">
+    <title>JSON Serialization</title>
+
+    <conbody><note>This section has not been written</note></conbody>
+  </concept>
+
+</concept>

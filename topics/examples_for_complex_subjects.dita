@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="examples_for_complex_subjects">
+  <title>Complex Subjects</title>
+
+  <shortdesc>XDI statements demonstrating the complex subjects XDI graph pattern.</shortdesc>
+
+  <conbody>
+  </conbody>
+
+  <concept id="xdi_statements_complex_subjects">
+    <title>XDI Statements</title>
+
+    <conbody>
+      <p>()/()/=abc</p>
+      <p>=abc/()/+tel</p>
+      <p>=abc/()/+passport</p>
+      <p>=abc/()/!1</p>
+      <p>=abc/()/!2</p>
+      <p>=abc/()/()</p>
+      <p>=abc/()/$v</p>
+      <p>=abc/$v/=abc$v!2</p>
+      <p>=abc/+age!/(data:,33)</p>
+      <p>=abc()/()/!1</p>
+      <p>=abc()/()/!2</p>
+      <p>=abc()!1/$d!/(data:,2010J11J11T11:11:11Z)</p>
+      <p>=abc()!2/$d!/(data:,2010J12J22T22:22:22Z)</p>
+      <p>=abc$v/()/!1</p>
+      <p>=abc$v/()/!2</p>
+      <p>=abc$v!2/$is/=abc</p>
+    </conbody>
+  </concept>
+
+  <concept id="json_serialization_complex_subjects">
+    <title>JSON Serialization</title>
+
+    <conbody><note>This section has not been written</note></conbody>
+  </concept>
+
+</concept>
