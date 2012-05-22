@@ -7,6 +7,6 @@ to build those specs.
 To build the XDI Graph Model document execute the following command:
   ./build.sh xdi_graph_model.ditamap
 
-The result will be in the ./docs directory, with the 
+The resultng PDF will be in the ./docs directory, with the 
 log in the ./logs directory.
  
